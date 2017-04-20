@@ -88,3 +88,9 @@ img.nosilogo{
     display: none;
 }
 /****** END ********/
+
+/* Makes 'Sale' in menu red */
+li#nav-72 a {
+    color: #ff0000;
+}
+/* END */
