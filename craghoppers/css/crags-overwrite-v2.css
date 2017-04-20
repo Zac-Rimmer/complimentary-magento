@@ -7848,6 +7848,21 @@ div.half img {
 	    font-size: 4vw;
 	}
 
+	.pl-range-button {
+	    margin: 3% 0;
+	    width: 100%;
+	}
+
 }
 
+@media only screen and (max-width: 420px){
+	.pl-third {
+	    width: 100%;
+	}
+
+	.pl-third:nth-child(2) {
+    	margin: 3% 0 0 0;
+	}
+
+}
 /* END */
