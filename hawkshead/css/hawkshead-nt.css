@@ -3608,6 +3608,11 @@ a:nth-child(4) .offers-box {
     cursor: pointer;
 }
 
+.fabricContainer {
+    margin: auto;
+    width: 80%;
+}
+
 .productPageTechnologies {
     display: block;
     padding: 20px;
@@ -3620,7 +3625,7 @@ a:nth-child(4) .offers-box {
     right: 0;
     max-width: 740px;
     max-height: 450px;
-    /* overflow: scroll; */
+    overflow: auto;
     margin: auto;
     box-shadow: 0px 0px 90px rgba(0, 0, 0, 0.53);
     background: #FFFFFF;
