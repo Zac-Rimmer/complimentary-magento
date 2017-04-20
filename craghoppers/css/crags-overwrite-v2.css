@@ -7866,3 +7866,7 @@ div.half img {
 
 }
 /* END */
+
+.bannerOverlay__cta--SaleBttn:hover {
+    background: #ff0000;
+}
