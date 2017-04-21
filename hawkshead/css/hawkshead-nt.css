@@ -1531,7 +1531,7 @@ p.regattasubheading {
   letter-spacing: 2px;
 }
 .sliderheader {
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    text-shadow: none !important;
 }
 .fourblocks__button--womens {
     background: #d64846;
@@ -2211,7 +2211,7 @@ p.collectionhighlights__hoverstate--header {
 }
 
 .fourblocks__container {
-    width: 23%;
+    width: 23.8%;
     margin-right: 1%;
     margin-bottom: 2%;
     display: inline-block;
@@ -2460,7 +2460,6 @@ p.collectionhighlights__hoverstate--header {
     letter-spacing: 10px;
     line-height: 1;
     margin-top: 7%;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 .slidersubtext {
     text-align: center;
@@ -3637,3 +3636,16 @@ a:nth-child(4) .offers-box {
 }
 
 /*END OF Technologies*/
+.categorySubText {
+    clear: both;
+}
+
+/* Changes 'Clearance' in mega menu to red */
+#nav-64 a {
+    color: #ff0000;
+}
+
+#nav-64 .mmcontainer a {
+    color: #808080;
+}
+/* END */
