@@ -3640,3 +3640,9 @@ a:nth-child(4) .offers-box {
 .categorySubText {
     clear: both;
 }
+
+/* Changes 'Clearance' in mega menu to red */
+#nav-64 a {
+    color: #ff0000;
+}
+/* END */
