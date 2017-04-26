@@ -7870,3 +7870,15 @@ div.half img {
 .bannerOverlay__cta--SaleBttn:hover {
     background: #ff0000;
 }
+
+
+/* Fix for guarantee form */
+.cms-register-guarantee-form .input-box label {
+    width: 100%;
+}
+
+.cms-register-guarantee-form .popup {
+    float: left;
+}
+
+/* END */
