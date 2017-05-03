@@ -169,4 +169,7 @@ $j(document).ready(function($) {
     });  
   }
 
+  // moves the close button to inside the wrapper
+  $j(".closeToolTip").appendTo(".technologieswrapperpopup");
+
 });
