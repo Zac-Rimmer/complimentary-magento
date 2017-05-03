@@ -26,3 +26,71 @@ label[for="billing:use_for_shipping_no"]:after {
 .deliveryBar {
 	display: none;
 }
+
+/* Product Page technology pop up */
+.closeToolTip {
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    margin-top: -22%;
+    margin-left: 565px;
+    background: #e3e3e3;
+    padding: 0.5% 1%;
+    cursor: pointer;
+}
+
+.fabricContainer {
+    position: absolute;
+    top: 0;
+    background: #fff;
+    width: auto;
+    box-shadow: 1px 1px 15px #000;
+    margin-top: -24%;
+}
+
+.technologieswrapperpopup {
+    float: left;
+    margin: 0;
+    padding: 3% 2%;
+}
+
+.product-collateral .technologies-wrapper .technologiespopuprighthandside img {
+    max-width: 100%;
+    cursor: auto;
+}
+
+.technologiespopuprighthandside {
+    width: 245px; 
+}
+
+.technologies-wrapper--fullWidth img {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 680px){
+	.fabricContainer {
+	    width: 96%;
+	    margin-top: -50%;
+	    z-index: 8;
+	}
+	.technologieswrapperpopup {
+    	width: 100%;
+	}
+
+	.technologiespopuplefthandside {
+    	width: 100%;
+	}
+
+	.technologiespopuprighthandside {
+    	width: 100%;
+    	max-width: 240px;
+	}
+
+	.closeToolTip {
+	    margin-top: -47%;
+	    margin-left: 89%;
+	}
+
+}
+
+/* END */
