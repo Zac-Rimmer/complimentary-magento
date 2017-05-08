@@ -488,5 +488,20 @@ $j(document).ready(function($) {
    });
 
 
+   //Contact us pop up
+   $j('.form_popup').click(function(){
+    $j('.contact__popup').addClass('popup_open');
+    $j('.form_popup').addClass('popup_open');
+    $j('.popup__bg').addClass('popup_open');
+    $('body').addClass('no_scroll')
+  });
+
+  $j('#form__close').click(function(){
+    $j('.contact__popup').removeClass('popup_open');
+    $j('.form_popup').removeClass('popup_open');
+    $j('.popup__bg').removeClass('popup_open');
+    $('body').removeClass('no_scroll')
+  });
+
 
 });
