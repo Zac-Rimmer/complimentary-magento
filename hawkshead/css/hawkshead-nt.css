@@ -3652,3 +3652,68 @@ a:nth-child(4) .offers-box {
 }
 /* END */
 
+/* Contact Us Styles */
+
+.std .card p {
+    width: 100%;
+}
+.contact__card {
+    padding-bottom: 1%;
+    border-bottom: 1px solid;
+    margin-bottom: 2%;
+}
+.contact__popup {
+    display: none;
+}
+
+.contact__popup.popup_open {
+    display: block;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    max-width: 1228px;
+    background: #fff;
+    top: 85px;
+    padding: 10px;
+    overflow-y: scroll;
+    height: 750px;
+}
+.popup__inner {
+    background: #fff;
+    float: left;
+    width: 100%;
+}
+.popup__bg.popup_open {
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 5;
+}
+div#form__close {
+    float: right;
+    background: #e3e3e3;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 999999999999;
+}
+.form_popup {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.no_scroll {
+  height: 100%;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 480px){
+  .contact__popup.popup_open {
+      overflow: scroll;
+      height: 500px;
+      padding: 20px 40px;
+  }
+}
+
+/* END */
