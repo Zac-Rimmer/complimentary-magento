@@ -1236,11 +1236,11 @@ div#customerservice__row--kids table th {
 }
 
 .micro-hero--home {
-	background: url('//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife/MainImage_Home_1200x800px.jpg') no-repeat top left;
+	background: url('https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/nosilife-mainpage_hero.jpg') no-repeat top left;
 }
 
 .micro-hero--what {
-	background: url('//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife/MainImage_What_1200x800px.jpg') no-repeat top left;
+	background: url('https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/nosilife-whatisnosilife_hero.jpg') no-repeat top left;
 }
 
 .micro-hero--facts {
@@ -1248,7 +1248,17 @@ div#customerservice__row--kids table th {
 }
 
 .micro-hero--story {
-	background: url('//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife/MainImage_Story_1200x800px.jpg') no-repeat top left;
+	background: url('https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/nosilife-thesolution_hero.jpg') no-repeat top left;
+}
+
+.micro-hero--innercontainer {
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.micro-hero--innercontainer .micro-hero__subtext {
+    margin-left: 0% !important;
 }
 
 @media screen and (max-width:1100px) {
@@ -1600,13 +1610,13 @@ div#customerservice__row--kids table th {
 }
 
 .micro-collection__verticalBanner {
-	background: url('//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife/LeftImage_Story_Womens_261x717px.jpg') no-repeat;
+	background: url('//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife_microsite/NosiMicrosite-TheColution-VerticalBanner-Women.jpg') no-repeat;
 	width: 214px;
 	max-width: 214px;
 }
 
 .micro-collection__verticalBanner--kids {
-	background: url('//d1khwdv4lze0nb.cloudfront.net/images/SS16/nosilife/LeftImage_Story_Kids_261x717px.jpg') no-repeat;
+	background: url('https://cdn.craghoppers.com/img/SS17/UK/page/nosilife_microsite/NosiMicrosite-TheColution-VerticalBanner-Kids.jpg') no-repeat;
 }
 
 .micro-collection__collectionArea {
@@ -1801,6 +1811,11 @@ a.micro-product__button {
 	.micro-hero__title {
 		font-size: 32px;
 		width: 48%;
+	}
+
+	.micro-hero--innercontainer .micro-hero__title {
+    	width: 100%;
+    	margin-left:0;
 	}
 
 	.micro-hero__subtitle {
