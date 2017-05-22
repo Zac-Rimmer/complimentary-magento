@@ -1531,7 +1531,7 @@ p.regattasubheading {
   letter-spacing: 2px;
 }
 .sliderheader {
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    text-shadow: none !important;
 }
 .fourblocks__button--womens {
     background: #d64846;
@@ -2460,7 +2460,6 @@ p.collectionhighlights__hoverstate--header {
     letter-spacing: 10px;
     line-height: 1;
     margin-top: 7%;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 .slidersubtext {
     text-align: center;
