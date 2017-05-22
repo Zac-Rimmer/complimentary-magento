@@ -1731,21 +1731,10 @@ div#customerservice__row--kids table th {
 	letter-spacing: 1px;
 }
 
-/*.micro-collection__productArea {
-	display: table;
-	width: 100%;
-}*/
-
 .micro-collection__productArea {
     width: 100%;
     float: left;
 }
-
-/*.micro-collection__productsContainer,
-.micro-collection__banner {
-	display: table-cell;
-	vertical-align: top;
-}*/
 
 .micro-collection__productsContainer, .micro-collection__banner {
     vertical-align: top;
@@ -1753,15 +1742,6 @@ div#customerservice__row--kids table th {
     width: 100%;
     text-align: center;
 }
-
-/*.micro-product {
-	width: 42%;
-	float: left;
-	position: relative;
-	padding-left: 4%;
-	text-align: center;
-	margin-bottom: 4vw;
-}*/
 
 .micro-product {
     width: 37%;
@@ -1837,6 +1817,13 @@ a.micro-product__button {
 
 .micro-collection--mobile{
 	display: none;
+}
+
+@media screen and (min-width:769px) and (max-width: 785px){
+	.micro-hero--home {
+	    padding-bottom: 40%;
+	}
+
 }
 
 @media screen and (min-width:1025px) {
