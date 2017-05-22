@@ -1490,6 +1490,14 @@ div#customerservice__row--kids table th {
 	line-height: 1.5;
 }
 
+.micro-hero--home .micro-hero__subtitle {
+    margin-left: 0;
+}
+
+.micro-hero--home .micro-hero__title {
+    margin: 0 0 1vw 0;
+}
+
 .micro-hero__subtext {
 	margin-left: 5% !important;
 	width: 40%;
@@ -1954,6 +1962,11 @@ a.micro-product__button {
 
 	.micro-sidebar__logo {
     	font-size: 38px;
+	}
+
+	.micro-hero--home .micro-hero__title,
+	.micro-hero--home .micro-hero__subtitle {
+	    margin-left: 0;
 	}
 
 }
