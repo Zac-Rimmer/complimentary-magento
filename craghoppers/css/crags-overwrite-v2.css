@@ -1522,7 +1522,7 @@ div#customerservice__row--kids table th {
 }
 
 .micro-hero--facts .micro-hero__subtext {
-	width: 90%;
+	width: 90% !important;
 }
 
 .micro-hero__infographicRow {
