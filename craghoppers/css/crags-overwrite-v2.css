@@ -8068,7 +8068,7 @@ div.half img {
 }
 
 
-<<<<<<< HEAD
+
 /* Insect Repellent Mega Menu */
 .mmrow--nosilife{
 	width:50%;
@@ -8092,6 +8092,7 @@ div.half img {
 
 }
 
+
 /* Fix for guarantee form */
 .cms-register-guarantee-form .input-box label {
     width: 100%;
@@ -8105,7 +8106,11 @@ div.half img {
 	.cms-register-guarantee-form .input-box {
 	    margin-top: 0;
 	}
+
 }
+
+/* END */
+
 
 /* Contact Us Styles */
 
@@ -8170,3 +8175,4 @@ div#form__close {
       padding: 20px 40px;
   }
 }
+
