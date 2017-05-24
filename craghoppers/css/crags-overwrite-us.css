@@ -26,3 +26,91 @@ label[for="billing:use_for_shipping_no"]:after {
 .deliveryBar {
 	display: none;
 }
+
+/* Product Page technology pop up */
+/*.closeToolTip {
+    position: fixed;
+    top: 0;
+    z-index: 11;
+    margin-top: 11%;
+    margin-left: 651px;
+    background: #e3e3e3;
+    padding: 0.5% 1%;
+    cursor: pointer;
+}*/
+
+.closeToolTip {
+    background: #e3e3e3;
+    padding: 2.5% 2%;
+    cursor: pointer;
+    display: table;
+    float: right;
+    font-weight: bold;
+}
+
+.closeToolTip:nth-child(4),
+.closeToolTip:nth-child(5),
+.closeToolTip:nth-child(6),
+.closeToolTip:nth-child(7) {
+    display: none;
+}
+
+.fabricContainer {
+    position: fixed;
+    top: 0;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 15px #000;
+    margin-top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.technologieswrapperpopup {
+    float: none;
+    padding: 3% 2%;
+    max-width: 700px;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+    display: table;
+    margin-top: 11%;
+    width: 100%;
+}
+
+.product-collateral .technologies-wrapper .technologiespopuprighthandside img {
+    max-width: 100%;
+    cursor: auto;
+}
+
+.technologiespopuprighthandside {
+    width: 245px; 
+}
+
+.technologies-wrapper--fullWidth img {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 680px){
+	.technologieswrapperpopup {
+    	width: 90%;
+    	margin-top: 26%;
+	}
+
+	.technologiespopuplefthandside {
+    	width: 100%;
+	}
+
+	.technologiespopuprighthandside {
+    	width: 100%;
+    	max-width: 240px;
+	}
+
+	.closeToolTip {
+    	padding: 2.5% 3%;
+	}
+
+}
+
+/* END */
