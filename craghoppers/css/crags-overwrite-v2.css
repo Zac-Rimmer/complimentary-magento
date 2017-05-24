@@ -1,6 +1,6 @@
 .box-title h3 {
 	text-transform: none;
-}
+} 
 
 .customer-account h3 {
 	text-transform: none;
@@ -7489,7 +7489,7 @@ div.half img {
 
 @media only screen and (max-width:979px) {
 	.input-box input.input-text {
-		width: 90% !important;
+		width: 100% !important;
 	} 
 
 }
@@ -8068,6 +8068,31 @@ div.half img {
 }
 
 
+
+/* Insect Repellent Mega Menu */
+.mmrow--nosilife{
+	width:50%;
+}
+
+.mmrow.mmrow--nosilife-image{
+	float: right;
+	width: auto;
+	padding-bottom: 3%;
+	padding-right: 3%;
+}
+
+@media only screen and (max-width: 1000px){
+	.mmrow--nosilife{
+		width:100%;
+	}
+
+	.mmrow--nosilife ul.mmlist {
+	    padding-bottom: 2%;
+	}
+
+}
+
+
 /* Fix for guarantee form */
 .cms-register-guarantee-form .input-box label {
     width: 100%;
@@ -8083,7 +8108,9 @@ div.half img {
 	}
 
 }
+
 /* END */
+
 
 /* Contact Us Styles */
 
@@ -8149,4 +8176,3 @@ div#form__close {
   }
 }
 
-/* END */
