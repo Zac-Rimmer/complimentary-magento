@@ -8178,3 +8178,6 @@ div#form__close {
   }
 }
 
+.divclear {
+	clear: both;
+}
