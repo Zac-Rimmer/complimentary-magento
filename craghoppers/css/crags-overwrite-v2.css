@@ -8200,3 +8200,7 @@ p.category-view__description.category-description {
 .gradient.gradient-toggle{
 	display: none;
 }
+.divclear {
+	clear: both;
+}
+
