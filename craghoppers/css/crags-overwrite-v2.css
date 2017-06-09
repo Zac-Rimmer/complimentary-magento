@@ -8200,6 +8200,13 @@ p.category-view__description.category-description {
 .gradient.gradient-toggle{
 	display: none;
 }
+
+@media only screen and (max-width: 375px){
+	.category-view__description:first-of-type .gradient {
+	    margin-top: -12.5%;
+	}
+}
+
 .divclear {
 	clear: both;
 }
