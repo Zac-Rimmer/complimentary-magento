@@ -8206,3 +8206,8 @@ p.category-view__description.category-description {
 	    margin-top: -12.5%;
 	}
 }
+
+.divclear {
+	clear: both;
+}
+
