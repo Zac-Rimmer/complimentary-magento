@@ -8178,3 +8178,25 @@ div#form__close {
   }
 }
 
+.seemore {
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    background: #e3e3e3;
+    padding: 2% 0;
+    margin-top: 1%;
+}
+
+p.category-view__description.category-description {
+    display: block !important;
+}
+
+.category-view__description:first-of-type .gradient{
+	margin-top:-5.5%;
+}
+
+.seemore.toggle-removebttn,
+.category-view__description:last-of-type .gradient,
+.gradient.gradient-toggle{
+	display: none;
+}
