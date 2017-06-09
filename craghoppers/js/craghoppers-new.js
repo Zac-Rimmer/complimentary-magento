@@ -509,19 +509,21 @@ $j(document).ready(function($) {
 
 /* mobile seo toggle hide/show */
 if (document.documentElement.clientWidth < 771) {
+  var catname = jQuery('body').attr('class');
   if($j('.col-main .category-view__description').length > 1) {
     $j('.col-main > .category-view__description:last-of-type').css('display','none');
     $j('.category-view__description').append('<div class="gradient"><img src="https://dbdhuxde2t9el.cloudfront.net/AW16/img/global/category/vertical-fade.png" style="width: 100%; height: 45px;"></div>');
-    $j('.category-view__description').append('<div class="seemore">See More</div>');
+    $j('.category-view__description').append('<a class="gtm-promo" data-promo-name="read-more-button" data-promo-position="'+catname+'"><div class="seemore">Read more</div></a>');
   }
 
   $j('.seemore').click(function(){
     $j('.col-main > .category-view__description:last-of-type').toggleClass('category-description');
     $j('.category-view__description:first-of-type .seemore').toggleClass('toggle-removebttn');
-    $j('.col-main > .category-view__description:last-of-type .seemore').html('See Less');
+    $j('.col-main > .category-view__description:last-of-type .seemore').html('Less');
     $j('.gradient').toggleClass('gradient-toggle')
   });
 };
+
 /* END */
 
 
