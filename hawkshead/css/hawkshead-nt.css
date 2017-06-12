@@ -429,9 +429,6 @@ p.collectionhighlights__hoverstate--header {
         display: none;
     }
 
-    .catalog-category-view .pageintro {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 545px) {
@@ -3427,10 +3424,6 @@ div#header-account {
     display: none;
   }
 
-  .catalog-category-view .pageintro {
-    display: none;
-  }
-
 }
 
 
@@ -3721,3 +3714,42 @@ div#form__close {
   }
 }
 
+
+.seemore {
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    background: #e3e3e3;
+    padding: 2% 0;
+    margin-top: 1%;
+}
+
+.pageintro p.more-paragraph {
+    display: block !important;
+}
+
+.pageintro p:first-of-type .gradient{
+    margin-top:-5.5%;
+}
+
+.seemore.toggle-removebttn,
+.pageintro p:last-of-type .gradient,
+.gradient.gradient-toggle{
+    display: none;
+}
+
+@media only screen and (max-width: 770px){
+    .bannercontainer {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .pageintro p:first-of-type .gradient {
+        margin-top: -12.5%;
+    }
+}
+
+.divclear {
+    clear: both;
+}
