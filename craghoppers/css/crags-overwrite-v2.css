@@ -8178,6 +8178,7 @@ div#form__close {
   }
 }
 
+/* Mobile SEO show/hide */
 .seemore {
     margin: 0 auto;
     width: 200px;
@@ -8197,8 +8198,26 @@ p.category-view__description.category-description {
 
 .seemore.toggle-removebttn,
 .category-view__description:last-of-type .gradient,
-.gradient.gradient-toggle{
+.gradient.gradient-toggle,
+.mobileseo-container.close{
 	display: none;
+}
+
+.mobileseo-container {
+    margin-top: -8%;
+}
+
+
+@media only screen and (max-width: 644px){
+	p.category-view__description.first-description {
+	    max-height: 50px;
+	    overflow: hidden;
+	}
+
+	.mobileseo-container {
+	    margin-top: -67px;
+	}
+
 }
 
 @media only screen and (max-width: 375px){
@@ -8206,6 +8225,8 @@ p.category-view__description.category-description {
 	    margin-top: -12.5%;
 	}
 }
+
+/* END */
 
 .divclear {
 	clear: both;
