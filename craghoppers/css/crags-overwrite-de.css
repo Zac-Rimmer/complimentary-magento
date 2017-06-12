@@ -153,4 +153,12 @@ li#nav-72 a {
         margin-left: 8% !important;
     }
 }   
+
+.cms-page-view .std li, .cms-no-route .std li{
+    line-height: 1.2;
+ }
+
+ .micro-product {
+    margin: 0 auto 1vw auto;
+ }
 /* END */ 
