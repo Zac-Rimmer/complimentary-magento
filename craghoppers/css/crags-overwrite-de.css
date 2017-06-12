@@ -122,7 +122,9 @@ li#nav-72 a {
     margin-top: 0;
     margin-left: 0;
 }
+/* END */ 
 
+/* NosiLife page updates */
 .micro-hero__title--white {
     margin: 0 0 1em 1.5em;
 }
@@ -135,4 +137,20 @@ li#nav-72 a {
     width: 24%;
 }
 
+.micro-hero__title {
+    margin: 0 0 1vw 8%;
+}
+
+.micro-hero__subtitle {
+    margin-left: 8%;
+}
+
+@media only screen and (max-width:768px) {
+    .micro-hero__title {
+        margin-left: 8% !important;
+    }
+    .micro-hero__subtitle {
+        margin-left: 8% !important;
+    }
+}   
 /* END */ 
