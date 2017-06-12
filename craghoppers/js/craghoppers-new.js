@@ -512,15 +512,19 @@ if (document.documentElement.clientWidth < 771) {
   var catname = jQuery('body').attr('class');
   if($j('.col-main .category-view__description').length > 1) {
     $j('.col-main > .category-view__description:last-of-type').css('display','none');
-    $j('.category-view__description').append('<div class="gradient"><img src="https://dbdhuxde2t9el.cloudfront.net/AW16/img/global/category/vertical-fade.png" style="width: 100%; height: 45px;"></div>');
-    $j('.category-view__description').append('<a><div class="seemore">Read more</div></a>');
+    $j('.category-view__description:first-of-type').addClass('first-description')
+    $j('.category-view__description:first-of-type').after('<div class="mobileseo-container"><div class="gradient"><img src="https://dbdhuxde2t9el.cloudfront.net/AW16/img/global/category/vertical-fade.png" style="width: 100%; height: 45px;"></div><a><div class="seemore">Read more</div></a></div>');
+    $j('.category-view__description:last-of-type').append('<a><div class="seemore">Read more</div></a>');
   }
 
   $j('.seemore').click(function(){
     $j('.col-main > .category-view__description:last-of-type').toggleClass('category-description');
     $j('.category-view__description:first-of-type .seemore').toggleClass('toggle-removebttn');
+    $j('.mobileseo-container .seemore').toggleClass('toggle-removebttn');
+    $j('.category-view__description:first-of-type').toggleClass('first-description');
+    $j('.mobileseo-container').toggleClass('close');
     $j('.col-main > .category-view__description:last-of-type .seemore').addClass('readless-bttn');
-    $j('.col-main > .category-view__description:last-of-type .seemore.readless-bttn').html('Less');
+    $j('.col-main > .category-view__description:last-of-type .seemore.readless-bttn').html('Read less');
     $j('.gradient').toggleClass('gradient-toggle')
     ga('send', 'event', 'read-more-button', 'click', ''+catname+'');
   });
