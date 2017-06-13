@@ -3714,6 +3714,7 @@ div#form__close {
   }
 }
 
+/* Mobile SEO show/hide */
 
 .seemore {
     margin: 0 auto;
@@ -3734,13 +3735,28 @@ div#form__close {
 
 .seemore.toggle-removebttn,
 .pageintro p:last-of-type .gradient,
-.gradient.gradient-toggle{
+.gradient.gradient-toggle,
+.mobileseo-container.close{
     display: none;
+}
+
+.pageintro p.displayall:first-of-type {
+    max-height: 100%;
+    overflow: visible;
 }
 
 @media only screen and (max-width: 770px){
     .bannercontainer {
         display: none;
+    }
+
+    .pageintro p:first-of-type {
+        max-height: 60px;
+        overflow: hidden;
+    }
+
+    .mobileseo-container {
+        margin-top: -65px;
     }
 }
 
@@ -3749,6 +3765,8 @@ div#form__close {
         margin-top: -12.5%;
     }
 }
+
+/* END */
 
 .divclear {
     clear: both;
