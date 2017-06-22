@@ -3721,3 +3721,12 @@ div#form__close {
   }
 }
 
+.sliderredbackround {
+    background-color:rgb(255,0,0); opacity:0.8;
+    width:  50%;
+    margin-left: 25%;
+}
+.sliderstrip--salered {
+    background-color:rgb(255,0,0)!important; opacity:0.8;
+}
+
