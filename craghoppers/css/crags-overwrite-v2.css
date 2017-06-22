@@ -8232,3 +8232,22 @@ p.category-view__description.category-description {
 	clear: both;
 }
 
+/* No image slider */
+.bannerOverlay-noimg{
+	height: 392px;
+}
+
+@media only screen and (max-width: 1246px){
+	.bannerOverlay-noimg{
+		height: 32vw;
+    	max-height: 392px;
+	}
+}
+
+@media only screen and (max-width: 739px){
+	.bannerOverlay-noimg{
+		height: 66vw;
+    	max-height: 488px;
+	}
+}
+/* END */
