@@ -116,7 +116,7 @@ header#header, .page-header-container{background: #222; padding: 0;}
 .ms-topmenu .ms-submenu li a{font-family: arial}
 .mmColumn h4, .mmColumn h4 a{color: #222 !important;font-weight: 100;}
 .ms-megamenu{max-width: 1600px;}
-.ms-topmenu .ms-label{padding: 10px 35px;box-sizing: border-box;color: #222;font-family: futura;font-weight: 500;}
+.ms-topmenu .ms-label{padding: 10px 33px;box-sizing: border-box;color: #222;font-family: futura;font-weight: 500;}
 .ms-topmenu .ms-level0.active .ms-label, .ms-topmenu .ms-level0:hover .ms-label, .ms-topmenu .ms-level0:active .ms-label, .ms-topmenu .ms-level0:focus .ms-label{
   box-sizing: border-box; border-top: 0
 }
