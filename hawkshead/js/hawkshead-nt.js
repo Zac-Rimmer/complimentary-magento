@@ -53,7 +53,37 @@ $j(document).ready(function($) {
     $('body').removeClass('no_scroll');
     $('body').unbind('touchmove'); //mobile enable scroll
   });
+  /* END */
 
+
+  /* mobile seo toggle hide/show */
+  if (document.documentElement.clientWidth < 771) {
+    var catname = jQuery('body').attr('class');
+    if($j('.pageintro p').length > 1) {
+      $j('.pageintro p:last-of-type').css('display','none');
+      //$j('.pageintro p').append('<div class="gradient"><img src="https://dbdhuxde2t9el.cloudfront.net/AW16/img/global/category/vertical-fade.png" style="width: 100%; height: 45px;"></div>');
+      $j('.pageintro p:first-of-type').after('<div class="mobileseo-container"><div class="gradient"><img src="https://dbdhuxde2t9el.cloudfront.net/AW16/img/global/category/vertical-fade.png" style="width: 100%; height: 45px;"></div><a><div class="seemore">Read more</div></a></div>');
+      $j('.pageintro p:last-of-type').append('<a><div class="seemore">Read more</div></a>');
+    }
+
+    $j('.seemore').click(function(){
+      $j('.pageintro p:last-of-type').toggleClass('category-description');
+      $j('.pageintro p:first-of-type .seemore').toggleClass('toggle-removebttn');
+      $j('.pageintro p:last-of-type').toggleClass('more-paragraph');
+      $j('.mobileseo-container').toggleClass('close');
+      $j('.pageintro p:first-of-type').toggleClass('displayall');
+      $j('.pageintro p:last-of-type .seemore').addClass('readless-bttn');
+      $j('.pageintro p:last-of-type .seemore.readless-bttn').html('Less');
+      $j('.gradient').toggleClass('gradient-toggle')
+      ga('send', 'event', 'read-more-button', 'click', ''+catname+'');
+    });
+
+    $j('.pageintro p:last-of-type .seemore.readless-bttn').click(function(){
+      ga('send', 'event', 'read-less-button', 'click', ''+catname+'');
+    });
+  };
+
+  /* END */
   
 
 
