@@ -171,3 +171,9 @@ li#nav-72 a {
 }
 
 /* END */ 
+
+/* guarantee form */
+.newsletter-capital {
+    text-transform: uppercase;
+}
+/* END */ 
