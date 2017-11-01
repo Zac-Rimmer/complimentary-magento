@@ -616,13 +616,13 @@ li#nav-72 a {
     font-family: 'Montserrat-Bold';
     src: url(//d3p94jb0997i39.cloudfront.net/craghoppers/css/fonts/montserrat/Montserrat-Bold.otf);
 }
-.wrapper,
-.main-container {
+.cms-ultimate-travel-collection .wrapper,
+.cms-ultimate-travel-collection .main-container {
     width: 100%;
     max-width: 100%;
 }
-header.page-header,
-.top-container {
+.cms-ultimate-travel-collection header.page-header,
+.cms-ultimate-travel-collection .top-container {
     max-width: 1228px;
 }
 .utc-subnav li {
@@ -677,6 +677,9 @@ header.page-header,
     color: #fff;
     display: inline-block;
     margin: 0 1%;
+}
+.utc-header ul a li {
+    color:#fff !important;
 }
 .utc-activelink,
 .utc-header ul li:hover {
@@ -981,6 +984,7 @@ header.page-header,
 }
 .utc-productmain img {
     width: 89%;
+    margin:0 auto;
 }
 .utc-productmain {
     text-align: center;
@@ -1183,6 +1187,7 @@ header.page-header,
 }
 .utc-producthighlights img {
     width: 58%;
+    margin:0 auto;
 }
 .utc-producthighlights .col-12{
     background: #f2f2f2;
@@ -1203,7 +1208,7 @@ header.page-header,
 }
 .utc-modelDetails {
     max-width: 625px;
-    margin: 0 auto;
+    margin: 0 auto !important;
     text-align: left;
     font-size: 14px;
     margin-top: 0.5%;
