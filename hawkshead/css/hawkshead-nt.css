@@ -3714,6 +3714,17 @@ div#form__close {
   }
 }
 
+
+.sliderredbackround {
+    background-color:rgba(255,0,0,0.8);
+    width:  50%;
+    margin-left: 25%;
+}
+.sliderstrip--salered {
+    background-color:rgba(255,0,0,0.8)!important;
+}
+
+
 /* Mobile SEO show/hide */
 
 .seemore {
@@ -3771,3 +3782,4 @@ div#form__close {
 .divclear {
     clear: both;
 }
+

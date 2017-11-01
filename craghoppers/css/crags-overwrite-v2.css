@@ -907,7 +907,7 @@ a:active {
 	float: left;
 	padding: 5px;
 	background: #eee;
-	width: 25%;
+	width: 20%;
 	text-align: center;
 	border-right: 1px solid #ddd;
 }
@@ -8232,3 +8232,31 @@ p.category-view__description.category-description {
 	clear: both;
 }
 
+/* No image slider */
+.bannerOverlay-noimg{
+	height: 392px;
+}
+
+@media only screen and (max-width: 1246px){
+	.bannerOverlay-noimg{
+		height: 32vw;
+    	max-height: 392px;
+	}
+}
+
+@media only screen and (max-width: 739px){
+	.bannerOverlay-noimg{
+		height: 66vw;
+    	max-height: 488px;
+	}
+}
+/* END */
+
+/* Returns */
++.returns-myhermes {
++  padding: 1.5% 0 1% 0; }
++
++p.customerservice-left {
++  text-align: left; }
++
++/* END */

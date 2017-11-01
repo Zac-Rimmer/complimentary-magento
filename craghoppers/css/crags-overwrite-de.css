@@ -173,6 +173,7 @@ li#nav-72 a {
 /* END */ 
 
 
+
 /* Util CSS */
 /***************************************************
 /* UTILITY CSS
@@ -1741,3 +1742,10 @@ h2.utc-title-lower {
 /*Technologies End */
 
 /* END */
+
+/* guarantee form */
+.newsletter-capital {
+    text-transform: uppercase;
+}
+/* END */ 
+
