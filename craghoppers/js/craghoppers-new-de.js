@@ -219,5 +219,58 @@ $j(document).ready(function($) {
     });  
   }
 
+  function rlTab() {
+    jQuery('.utc-subnav li').click(function(){
+      jQuery('.utc-subnav li').toggleClass('active');
+      jQuery('.tabs-content div').toggleClass('active');
+    });
+  }
+
+  function rlPop(){
+    // add click events for popups
+    var nodeList = document.body.querySelectorAll("[data-action='pop']");
+    var nodes = Array.prototype.slice.call(nodeList, 0);
+    nodes.forEach(function(node){
+      node.addEventListener('click', function(){
+        
+        // show popup
+        var target = this.getAttribute('data-target');
+        target = document.body.querySelector(target);
+        target.classList.toggle('active');
+        
+        // show overlay
+        overlay.classList.add('active');      
+        
+      });
+    });
+    
+    // add click events for popups
+    var crossList = document.body.querySelectorAll("[data-action='pop-close']");
+    var crosses = Array.prototype.slice.call(crossList, 0);
+    crosses.forEach(function(cross){
+      cross.addEventListener('click', function(){
+        var nodeList = document.body.querySelectorAll(".rl-pop");
+        var nodes = Array.prototype.slice.call(nodeList, 0);
+        nodes.forEach(function(node){
+          node.classList.remove('active');
+        });
+        overlay.classList.remove('active');
+      });
+    });
+    
+    // create overlay & click event
+    var overlay = document.createElement('div');
+    overlay.className = "pop-overlay";
+    document.getElementById('body').appendChild(overlay);
+    overlay.addEventListener('click', function(){
+      var nodeList = document.body.querySelectorAll(".rl-pop");
+      var nodes = Array.prototype.slice.call(nodeList, 0);
+      nodes.forEach(function(node){
+        node.classList.remove('active');
+      });
+      overlay.classList.remove('active');
+    });
+  }
+
 
 });
