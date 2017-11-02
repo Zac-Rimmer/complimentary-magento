@@ -542,26 +542,6 @@ li#nav-72 a {
 /* END */
 
 /* UTC Styles */
-@font-face {
-    font-family: 'Montserrat-Regular';
-    src: url(http://d3p94jb0997i39.cloudfront.net/craghoppers/css/fonts/montserrat/Montserrat-Regular.otf);
-}
-
-@font-face {
-    font-family: 'Montserrat-Medium';
-    src: url(http://d3p94jb0997i39.cloudfront.net/craghoppers/css/fonts/montserrat/Montserrat-Medium.otf);
-}
-
-@font-face {
-    font-family: 'Montserrat-Light';
-    src: url(http://d3p94jb0997i39.cloudfront.net/craghoppers/css/fonts/montserrat/Montserrat-Light.otf);
-}
-
-@font-face {
-    font-family: 'Montserrat-Bold';
-    src: url(http://d3p94jb0997i39.cloudfront.net/craghoppers/css/fonts/montserrat/Montserrat-Bold.otf);
-}
-
 .utc{
     font-family:'Montserrat-Regular';
 }
@@ -594,6 +574,14 @@ li#nav-72 a {
     margin: 0;
 }
 
+.cms-ultimate-travel-collection .breadcrumbs,
+.cms-ultimate-travel-collection-mens .breadcrumbs,
+.cms-ultimate-travel-collection-womens .breadcrumbs,
+.cms-ultimate-travel-collection-tailored-technologies .breadcrumbs,
+.cms-ultimate-travel-collection-have-a-safe-journey .breadcrumbs{
+    display: none;
+}
+
 .utc-strip-padding {
     margin-top: 3%;
 }
@@ -618,12 +606,28 @@ li#nav-72 a {
     src: url(//d3p94jb0997i39.cloudfront.net/craghoppers/css/fonts/montserrat/Montserrat-Bold.otf);
 }
 .cms-ultimate-travel-collection .wrapper,
-.cms-ultimate-travel-collection .main-container {
+.cms-ultimate-travel-collection-mens .wrapper,
+.cms-ultimate-travel-collection-womens .wrapper,
+.cms-ultimate-travel-collection-tailored-technologies .wrapper,
+.cms-ultimate-travel-collection-have-a-safe-journey .wrapper,
+.cms-ultimate-travel-collection .main-container,
+.cms-ultimate-travel-collection-mens .main-container,
+.cms-ultimate-travel-collection-womens .main-container,
+.cms-ultimate-travel-collection-tailored-technologies .main-container,
+.cms-ultimate-travel-collection-have-a-safe-journey .main-container {
     width: 100%;
     max-width: 100%;
 }
 .cms-ultimate-travel-collection header.page-header,
-.cms-ultimate-travel-collection .top-container {
+.cms-ultimate-travel-collection-mens header.page-header,
+.cms-ultimate-travel-collection-womens header.page-header,
+.cms-ultimate-travel-collection-tailored-technologies header.page-header,
+.cms-ultimate-travel-collection-have-a-safe-journey header.page-header,
+.cms-ultimate-travel-collection .top-container,
+.cms-ultimate-travel-collection-mens .top-container,
+.cms-ultimate-travel-collection-womens .top-container,
+.cms-ultimate-travel-collection-tailored-technologies .top-container,
+.cms-ultimate-travel-collection-have-a-safe-journey .top-container {
     max-width: 1228px;
 }
 .utc-subnav li {
@@ -679,12 +683,16 @@ li#nav-72 a {
     display: inline-block;
     margin: 0 1%;
 }
-.utc-header ul a li {
+.cms-page-view .utc-header ul a li {
     color:#fff !important;
+    font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif;
 }
 .utc-activelink,
 .utc-header ul li:hover {
     text-decoration: underline;
+}
+.utc-subnav li {
+    font-weight: bold;
 }
 @media only screen and (max-width:600px){
     .utc-headwrapper {
@@ -718,6 +726,10 @@ li#nav-72 a {
 .utc-footer p:last-child {
     font-family:'Montserrat-Regular';
     font-size: 20px;
+}
+
+.cms-page-view .utc-footer p {
+    width: 100%;
 }
 
 @media only screen and (max-width:400px){
@@ -785,7 +797,7 @@ li#nav-72 a {
     width: 100%;
     letter-spacing: 1px;
 }
-.utc-multihero .utc-productdesc {
+.cms-page-view .utc-multihero .utc-productdesc {
     font-size: 12px;
     font-family: 'Montserrat-Light';
     width: 75%;
@@ -822,7 +834,7 @@ li#nav-72 a {
     color: #000;
     padding: 0.5% 4%;
 }
-.utc-technical {
+.cms-page-view .std p.utc-technical {
     width: 271px;
     font-size: 18px;
     color: #000;
@@ -871,7 +883,7 @@ li#nav-72 a {
     margin-top: 29%;
     margin-left: 2%;
 }
-.utc-lowerhero .utc-productdesc {
+.cms-page-view .utc-lowerhero .utc-productdesc {
     width: 208px;
     font-size: 12px;
     margin-left: 2%;
@@ -975,9 +987,10 @@ li#nav-72 a {
 .utc-lowerseo {
     margin-top: 1.5%;
 }
-.utc-lowerseo p {
+.cms-page-view .utc-lowerseo p {
     margin-bottom: 0;
     font-size:14px;
+    width:100%;
 }
 .utc-multihero span img {
     width: 100%;
@@ -1324,6 +1337,7 @@ li#nav-72 a {
 
 .utc-plp-swatch-inner {
     padding: 0 0.5%;
+    display: inline-block;
 }
 
 .utc-plp-product-link {
