@@ -798,8 +798,8 @@ li#nav-72 a {
 /* END */
 
 /* UTC Styles */
-.utc {
-    font-family: 'Montserrat-Regular';
+.utc{
+    font-family:'Montserrat-Regular';
 }
 
 .cms-ultimate-travel-collection #content .columns .o-region__inner,
@@ -832,6 +832,7 @@ li#nav-72 a {
 }
 
 .cms-ultimate-travel-collection .breadcrumbs,
+
 .cms-ultimate-travel-collection-herren .breadcrumbs,
 .cms-ultimate-travel-collection-damen .breadcrumbs,
 .cms-ultimate-travel-collection-massgeschneiderte-technologien .breadcrumbs,
@@ -971,6 +972,11 @@ li#nav-72 a {
 }
 
 @media only screen and (max-width:600px) {
+
+.utc-subnav li {
+    font-weight: bold;
+}
+@media only screen and (max-width:600px){
     .utc-headwrapper {
         display: none;
     }
@@ -1010,12 +1016,19 @@ li#nav-72 a {
     font-size: 20px;
 }
 
+
 .cms-page-view .utc-footer p,
 .cms-page-view .utc-lower-seo p {
     width: 100%;
 }
 
 @media only screen and (max-width:400px) {
+
+.cms-page-view .utc-footer p {
+    width: 100%;
+}
+
+@media only screen and (max-width:400px){
     .utc-footer p:first-child {
         letter-spacing: 8px;
     }
@@ -1327,8 +1340,8 @@ li#nav-72 a {
 
 .cms-page-view .utc-lowerseo p {
     margin-bottom: 0;
-    font-size: 14px;
-    width: 100%;
+    font-size:14px;
+    width:100%;
 }
 
 .utc-multihero span img {
