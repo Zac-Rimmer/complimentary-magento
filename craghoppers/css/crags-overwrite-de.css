@@ -575,9 +575,9 @@ li#nav-72 a {
 }
 
 .cms-ultimate-travel-collection .breadcrumbs,
-.cms-ultimate-travel-collection-mens .breadcrumbs,
-.cms-ultimate-travel-collection-womens .breadcrumbs,
-.cms-ultimate-travel-collection-tailored-technologies .breadcrumbs,
+.cms-ultimate-travel-collection-herren .breadcrumbs,
+.cms-ultimate-travel-collection-damen .breadcrumbs,
+.cms-ultimate-travel-collection-massgeschneiderte-technologien .breadcrumbs,
 .cms-ultimate-travel-collection-have-a-safe-journey .breadcrumbs{
     display: none;
 }
@@ -606,27 +606,27 @@ li#nav-72 a {
     src: url(//d3p94jb0997i39.cloudfront.net/craghoppers/css/fonts/montserrat/Montserrat-Bold.otf);
 }
 .cms-ultimate-travel-collection .wrapper,
-.cms-ultimate-travel-collection-mens .wrapper,
-.cms-ultimate-travel-collection-womens .wrapper,
-.cms-ultimate-travel-collection-tailored-technologies .wrapper,
+.cms-ultimate-travel-collection-herren .wrapper,
+.cms-ultimate-travel-collection-damen .wrapper,
+.cms-ultimate-travel-collection-massgeschneiderte-technologien .wrapper,
 .cms-ultimate-travel-collection-have-a-safe-journey .wrapper,
 .cms-ultimate-travel-collection .main-container,
-.cms-ultimate-travel-collection-mens .main-container,
-.cms-ultimate-travel-collection-womens .main-container,
-.cms-ultimate-travel-collection-tailored-technologies .main-container,
+.cms-ultimate-travel-collection-herren .main-container,
+.cms-ultimate-travel-collection-damen .main-container,
+.cms-ultimate-travel-collection-massgeschneiderte-technologien .main-container,
 .cms-ultimate-travel-collection-have-a-safe-journey .main-container {
     width: 100%;
     max-width: 100%;
 }
 .cms-ultimate-travel-collection header.page-header,
-.cms-ultimate-travel-collection-mens header.page-header,
-.cms-ultimate-travel-collection-womens header.page-header,
-.cms-ultimate-travel-collection-tailored-technologies header.page-header,
+.cms-ultimate-travel-collection-herren header.page-header,
+.cms-ultimate-travel-collection-damen header.page-header,
+.cms-ultimate-travel-collection-massgeschneiderte-technologien header.page-header,
 .cms-ultimate-travel-collection-have-a-safe-journey header.page-header,
 .cms-ultimate-travel-collection .top-container,
-.cms-ultimate-travel-collection-mens .top-container,
-.cms-ultimate-travel-collection-womens .top-container,
-.cms-ultimate-travel-collection-tailored-technologies .top-container,
+.cms-ultimate-travel-collection-herren .top-container,
+.cms-ultimate-travel-collection-damen .top-container,
+.cms-ultimate-travel-collection-massgeschneiderte-technologien .top-container,
 .cms-ultimate-travel-collection-have-a-safe-journey .top-container {
     max-width: 1228px;
 }
