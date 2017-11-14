@@ -1763,3 +1763,9 @@ h2.utc-title-lower {
 }
 /* END */ 
 
+
+.categorySubText,
+.box-collateral.box-related{
+    display: none !important;
+}
+
