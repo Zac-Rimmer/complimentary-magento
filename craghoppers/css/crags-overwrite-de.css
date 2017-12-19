@@ -2115,3 +2115,10 @@ h2.utc-title-lower {
   text-decoration: underline;
   font-weight: bold;
 }
+
+
+/* PDP short desc */
+.short-description {
+    display: none;
+}
+/* END */
