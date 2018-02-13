@@ -2133,7 +2133,7 @@ h2.utc-title-lower {
   display: none;
 }
 .cya-main-title {
-  font-family: $crimreg;
+  font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 36px;
   text-align: center;
   text-transform: uppercase;
@@ -2144,11 +2144,11 @@ h2.utc-title-lower {
 .cya-main-copy {
   font-size: 16px;
   text-align: center;
-  padding: 0 19% 1% 0;
+  padding: 0 19% 1% 19%;
   color: #000;
 }
 .cya-title {
-  font-family: $crimreg;
+  font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
@@ -2232,7 +2232,7 @@ h2.utc-title-lower {
 }
 /* choose landing */
 .cyal-title {
-  font-family: $crimreg;
+  font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 36px;
   color: #000;
   padding-top: 4%;
@@ -2251,13 +2251,13 @@ h2.utc-title-lower {
     line-height: 26px
 }
 .cyal-topcopy {
-  font-family: $crimreg;
-  font-size: 24px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 22px;
   color: #000;
-  line-height: 32px;
+  line-height: 30px;
 }
 .cyal-topcopy-expedition {
-  padding: 17% 0 7% 0;
+  padding: 13% 0 7% 0;
 }
 .cyal-topcopy-explore {
   padding: 20% 0 7% 0;
@@ -2271,11 +2271,11 @@ h2.utc-title-lower {
   width: 100%;
 }
 .cyal-bottomcopy {
-  font-size: 16px;
+  font-size: 15px;
   color: #000;
-  padding: 7% 20% 0 0;
-  line-height: 22px;
-  font-family: $crimreg;
+  padding: 7% 13% 0 0;
+  line-height: 20px;
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
 .cyal-header-mob {
   display: none;
@@ -2287,52 +2287,52 @@ h2.utc-title-lower {
   background-size: cover;
 }
 .cyal-expedition {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/page/adventure/expedition-desktop.jpg");
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/page/adventure/expedition-desktop.jpg");
 }
 .cyal-explore {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/page/adventure/explore-desktop.jpg");
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/page/adventure/explore-desktop.jpg");
 }
 .cyal-escape {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/page/adventure/escape-desktop.jpg");
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/page/adventure/escape-desktop.jpg");
 }
 .cyal-inner {
   width: 32%;
   margin: auto;
 }
 .cyal-divide {
-  font-family: $crimreg;
+  font-family: Georgia, Times, "Times New Roman", serif;
   color: #000;
     font-size: 22px;
     background: #f1e9e1;
     text-decoration: none;
     max-width: 100%;
     text-align: center;
-    margin: 5% 0 2% 0;
+    margin: 3% 0 2% 0;
     line-height: 30px;
 }
 .cyal-divide-expedition {
-    padding: 2% 35%;
-}
-.cyal-divide-explore {
     padding: 2% 30%;
 }
+.cyal-divide-explore {
+    padding: 2% 27%;
+}
 .cyal-divide-escape {
-    padding: 2% 34%;
+    padding: 2% 30%;
 }
 .cyal-arrow {
   padding-top: 1%;
   text-align: center;
 }
 .cyal-title2 {
-  font-family: $crimreg;
+  font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 22px;
   text-align: center;
   color: #000;
 }
 .cyal-copy2 {
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
-  padding: 3% 15%;
+  padding: 3% 13%;
   color: #000;
 }
 .cyal-price {
@@ -2340,6 +2340,7 @@ h2.utc-title-lower {
     text-align: center;
     padding: 0 0 3% 0;
     color: #000;
+    font-weight: bold;
 }
 .cyal-btn {
     color: #fff;
@@ -2362,7 +2363,10 @@ h2.utc-title-lower {
     margin: auto;
 }
 .cyal-product {
-    min-height: 260px;
+    min-height: 315px;
+}
+.cyal-product2 {
+    min-height: 285px;
 }
 @media screen and (max-width: 770px) {
   .cyal-inner {
