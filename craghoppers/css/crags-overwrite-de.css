@@ -2425,3 +2425,7 @@ h2.utc-title-lower {
 }
 
 /* *********** END *********** */
+
+.ms-topmenu .ms-label {
+    padding: 14.75px 1.6vw !important;
+}
