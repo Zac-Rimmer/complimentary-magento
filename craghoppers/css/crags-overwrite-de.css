@@ -2429,3 +2429,298 @@ h2.utc-title-lower {
 .ms-topmenu .ms-label {
     padding: 14.75px 1.6vw !important;
 }
+
+/* Kit Guide */
+.kg-container {
+  width: 100%;
+  max-width:926px;
+  margin: auto;
+}
+.kg-intro-background {
+  background-image: url(https://cdn.craghoppers.com/img/AW17/UK/page/kit-guide/DestKitGuideHeaderImage.jpg);
+  height: 368px;
+}
+.kg-intro-title {
+  font-family: $crimreg;
+  font-size: 34px;
+  padding: 4% 0 1.7% 0;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.kg-intro-copy {
+  font-size: 14px;
+  padding: 0 10%;
+  text-align: center;
+  line-height: 20px;
+}
+.kg-pick-background {
+  background-color: #8a96a4;
+  color: #8a96a4;
+  width: 100%;
+  height: 190px;
+  margin-top: 15px;
+}
+.kg-destinations {
+  margin-top: -95px;
+}
+.kg-pick-nav-img {
+  text-align: center;
+}
+.kg-pick-title {
+  font-family: $crimreg;
+  font-size: 34px;
+  padding: 3.5% 0;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.kg-pick-copy {
+  font-size: 16px;
+  padding: 0 0 3% ;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+}
+
+.kg-4-background {
+  height: 175px;
+  margin-top: 5%;
+}
+.kg-cold-dry-background {
+  background-image: url(https://cdn.craghoppers.com/img/AW17/UK/page/kit-guide/DestKitGuide-ColdandDry.jpg);
+}
+.kg-hot-dry-background {
+  background-image: url(https://cdn.craghoppers.com/img/AW17/UK/page/kit-guide/DestKitGuide-HotandDry.jpg);
+}
+.kg-cold-wet-background {
+  background-image: url(https://cdn.craghoppers.com/img/AW17/UK/page/kit-guide/DestKitGuide-ColdandWet.jpg);
+}
+.kg-hot-wet-background {
+  background-image: url(https://cdn.craghoppers.com/img/AW17/UK/page/kit-guide/DestKitGuide-HotandWet.jpg);
+}
+.kg-weather-title {
+  font-family: $crimreg;
+  font-size: 34px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  text-align: left;
+  padding: 2.3% 0 0 24%;
+}
+.kg-weather-copy {
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  padding: 0 6% 0 24%;
+}
+.kg-prod-img {
+  text-align: center;
+  padding-top: 9%;
+}
+.kg-prod-title {
+  font-size: 17px;
+  line-height: 24px;
+  padding: 1% 2%;
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  min-height: 9vh;
+}
+.kg-prod-copy {
+  font-size: 14px;
+  padding: 0  0 5% 0;
+  line-height: 20px;
+  color: #000;
+  text-align: center;
+  min-height: 7vh;
+}
+.kg-prod-btn {
+  color: #fff;
+  font-size: 18px;
+  background: #000;
+  padding: 8px 18px 9px 18px;
+  text-decoration: none;
+  max-width: 200px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: auto;
+}
+.kg-prod-btn:hover {
+    background: #343334;
+    text-decoration: none;
+}
+.kg-divide {
+  color: #818181;
+  background-color: #818181;
+  height: 2px;
+  width: 725px;
+  margin: auto;
+  margin-top: 4%;
+}
+.kg-jim-quote {
+  color: #818181;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px 66px;
+  line-height: 52px;
+}
+.kg-jim {
+  color: #000;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media screen and (max-width: 770px) {
+  .kg-weather-title {
+    font-size: 36px;
+    letter-spacing: 2px;
+    padding: 1.5% 0 0 19%;
+  }
+  .kg-weather-copy {
+    font-size: 19px;
+    line-height: 27px;
+    padding: 0 1.5% 0 19%;
+  }
+  .kg-prod-title {
+    font-size: 22px;
+    line-height: 34px;
+      padding: 0% 4% 2% 4%;
+  }
+  .kg-prod-copy {
+    font-size: 21px;
+      padding: 0 4% 5% 4%;
+      line-height: 26px;
+  }
+  .kg-prod-btn {
+    font-size: 22px;
+    padding: 12px 30px 11px 30px;
+    max-width: 250px;
+  }
+  .kg-divide {
+    width: 780px;
+  }
+  .kg-jim-quote {
+    font-size: 26px;
+    padding: 20px 15px;
+    line-height: 30px;
+  }
+  .kg-jim {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .cms-kit-guide-test .kg-product {
+    width: 33%;
+  }
+  .cms-kit-guide-test .kg-pick-nav {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .kg-container {
+    width: 100%;
+  }
+  .kg-intro-background {
+    background-image: url(https://cdn.craghoppers.com/img/AW17/UK/page/kit-guide/DestKitGuideHeaderImage-mobile.jpg);
+    width: 100%;
+    min-height: 418px;
+  }
+  .kg-intro-title {
+    font-size: 21px;
+      line-height: 32px;
+      padding: 6% 0 1.7% 0;
+  }
+  .kg-intro-copy {
+    font-size: 14px;
+    padding: 2% 10%;
+    line-height: 20px;
+  }
+  .kg-pick-title {
+    font-size: 21px;
+  }
+  .cms-kit-guide-test .kg-product,
+  .cms-kit-guide-test .kg-pick-nav {
+    width: 50%;
+  }
+  .kg-pick-background {
+    height: 150px;
+  }
+  .kg-pick-nav-img {
+    padding: 0 5%;
+  }
+  .kg-4-background {
+    width: 100%;
+      min-height: 240px;
+      margin-top: 20px;
+      background-position: center center;
+  }
+  .kg-cold-dry-background {
+    background-image: url(https://cdn.craghoppers.com/img/AW17/UK/page/kit-guide/DestKitGuide-ColdandDry-Mobile.jpg);
+  }
+  .kg-hot-dry-background {
+    background-image: url(https://cdn.craghoppers.com/img/AW17/UK/page/kit-guide/DestKitGuide-HotandDry-Mobile.jpg);
+  }
+  .kg-cold-wet-background {
+    background-image: url(https://cdn.craghoppers.com/img/AW17/UK/page/kit-guide/DestKitGuide-ColdandWet-Mobile.jpg);
+  }
+  .kg-hot-wet-background {
+    background-image: url(https://cdn.craghoppers.com/img/AW17/UK/page/kit-guide/DestKitGuide-HotandWet-Mobile.jpg);
+  }
+  .kg-weather-title {
+    font-size: 24px;
+      line-height: 46px;
+      padding: 6% 0 0 5%;
+  }
+  .kg-weather-copy {
+    font-size: 16px;
+      line-height: 23px;
+      padding: 5px 3% 0 5%;
+  }
+  .kg-prod-title {
+    font-size: 15px;
+    line-height: 22px;
+    padding: 0.7% 0;
+    min-height: 6vh;
+  }
+  .kg-prod-copy {
+    font-size: 12px;
+    padding: 0  0 5% 0;
+    line-height: 18px;
+    min-height: 7vh;
+  }
+  .kg-prod-btn {
+    font-size: 12px;
+    padding: 6px 12px 7px 12px;
+    text-decoration: none;
+    max-width: 140px;
+  }
+  .kg-divide {
+    width: 100%;
+  }
+  .kg-jim-quote {
+    font-size: 20px;
+      text-align: center;
+      padding: 20px 15px;
+      line-height: 32px;
+  }
+  .kg-jim {
+    font-size: 14px;
+  }
+  .flex-item.col-3.kg-pick-nav,
+  .flex-item.col-4.kg-product {
+      width: 50%;
+  }
+}
+@media screen and (max-width: 340px) {
+  .flex-item.col-3.kg-pick-nav,
+  .flex-item.col-4.kg-product {
+      width: 100%;
+  }
+}
+/* END */
